@@ -1,0 +1,98 @@
+body {
+  font-size: 16px;
+  background-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Index.html CSS */
+.container {
+  width: 100%;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+.fade-in > .hello {
+  display: inline-block;
+  font-size: 5rem;
+  color: black;
+  animation: fadeIn ease-in 3s;
+  -webkit-animation: fadeIn ease-in 3s;
+  -moz-animation: fadeIn ease-in 3s;
+  -o-animation: fadeIn ease-in 3s;
+  -ms-animation: fadeIn ease-in 3s;
+}
+
+.fade-in > .intro {
+  display: inline-block;
+  font-size: 3rem;
+  color: black;
+  animation: fadeIn ease-in 5s;
+  -webkit-animation: fadeIn ease-in 5s;
+  -moz-animation: fadeIn ease-in 5s;
+  -o-animation: fadeIn ease-in 5s;
+  -ms-animation: fadeIn ease-in 5s;
+}
+
+.fade-in > .welcome {
+  display: inline-block;
+  font-size: 2rem;
+  color: black;
+  animation: fadeIn ease-in 7s;
+  -webkit-animation: fadeIn ease-in 7s;
+  -moz-animation: fadeIn ease-in 7s;
+  -o-animation: fadeIn ease-in 7s;
+  -ms-animation: fadeIn ease-in 7s;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+  70% {
+    opacity: 1;
+  }
+}
+
+/* Browser Specific CSS */
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+  70% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+  70% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+  70% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+  70% {
+    opacity: 1;
+  }
+}
