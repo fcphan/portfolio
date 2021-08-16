@@ -6,15 +6,17 @@ body {
 /* Index.html CSS */
 .container {
   width: 100%;
-  text-align: center;
-  margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
   padding: 50px;
 }
+#home {
+  margin-top: 15%;
+  text-align: center;
+}
 .fade-in > .hello {
   display: inline-block;
-  font-size: 5rem;
+  font-size: 6rem;
   color: black;
   animation: fadeIn ease-in 3s;
   -webkit-animation: fadeIn ease-in 3s;
@@ -25,7 +27,7 @@ body {
 
 .fade-in > .intro {
   display: inline-block;
-  font-size: 3rem;
+  font-size: 4rem;
   color: black;
   animation: fadeIn ease-in 5s;
   -webkit-animation: fadeIn ease-in 5s;
@@ -36,13 +38,25 @@ body {
 
 .fade-in > .welcome {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 3rem;
   color: black;
   animation: fadeIn ease-in 7s;
   -webkit-animation: fadeIn ease-in 7s;
   -moz-animation: fadeIn ease-in 7s;
   -o-animation: fadeIn ease-in 7s;
   -ms-animation: fadeIn ease-in 7s;
+}
+
+/* About.html CSS */
+h2 {
+  font-size: 3rem;
+}
+
+#category-text {
+  font-size: 1.5rem;
+}
+#category-text > ul {
+  font-size: 1rem;
 }
 
 /* Keyframes for animations */
