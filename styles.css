@@ -10,41 +10,33 @@ body {
   margin-right: auto;
   padding: 50px;
 }
+
 #home {
-  margin-top: 15%;
+  margin-top: 10%;
   text-align: center;
 }
-.fade-in > .hello {
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 4s ease-in forwards;
+  -webkit-animation: fadeIn 4s ease-in forwards;
+  -moz-animation: fadeIn 4s ease-in forwards;
+  -o-animation: fadeIn 4s ease-in forwards;
+  -ms-animation: fadeIn 4s ease-in forwards;
+  animation-delay: calc(var(--order) * 1s);
+}
+
+.hello {
   display: inline-block;
   font-size: 6rem;
-  color: black;
-  animation: fadeIn ease-in 3s;
-  -webkit-animation: fadeIn ease-in 3s;
-  -moz-animation: fadeIn ease-in 3s;
-  -o-animation: fadeIn ease-in 3s;
-  -ms-animation: fadeIn ease-in 3s;
 }
-
-.fade-in > .intro {
+.intro {
   display: inline-block;
   font-size: 4rem;
-  color: black;
-  animation: fadeIn ease-in 5s;
-  -webkit-animation: fadeIn ease-in 5s;
-  -moz-animation: fadeIn ease-in 5s;
-  -o-animation: fadeIn ease-in 5s;
-  -ms-animation: fadeIn ease-in 5s;
 }
-
-.fade-in > .welcome {
+.welcome {
   display: inline-block;
   font-size: 3rem;
-  color: black;
-  animation: fadeIn ease-in 7s;
-  -webkit-animation: fadeIn ease-in 7s;
-  -moz-animation: fadeIn ease-in 7s;
-  -o-animation: fadeIn ease-in 7s;
-  -ms-animation: fadeIn ease-in 7s;
 }
 
 /* About.html CSS */
@@ -59,13 +51,24 @@ h2 {
   font-size: 1rem;
 }
 
+/* Projects.html CSS */
+.carousel-caption {
+  background-color: #0a0a0a;
+}
+
+/* Contact.html CSS */
+#contact-section {
+  width: 450px;
+  height: 500px;
+}
 /* Keyframes for animations */
 @keyframes fadeIn {
   0% {
     opacity: 0;
     visibility: visible;
   }
-  70% {
+  70%,
+  100% {
     opacity: 1;
   }
 }
@@ -76,7 +79,8 @@ h2 {
     opacity: 0;
     visibility: visible;
   }
-  70% {
+  70%,
+  100% {
     opacity: 1;
   }
 }
@@ -86,7 +90,8 @@ h2 {
     opacity: 0;
     visibility: visible;
   }
-  70% {
+  70%,
+  100% {
     opacity: 1;
   }
 }
@@ -96,7 +101,8 @@ h2 {
     opacity: 0;
     visibility: visible;
   }
-  70% {
+  70%,
+  100% {
     opacity: 1;
   }
 }
@@ -106,7 +112,8 @@ h2 {
     opacity: 0;
     visibility: visible;
   }
-  70% {
+  70%,
+  100% {
     opacity: 1;
   }
 }
