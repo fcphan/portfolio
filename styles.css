@@ -56,6 +56,20 @@ h2 {
   background-color: #0a0a0a;
 }
 
+#cardCarousel {
+  display: none;
+}
+
+/* Anything smaller than a 768px displays card carousel instead of image */
+@media (max-width: 767px) {
+  #imgCarousel {
+    display: none;
+  }
+  #cardCarousel {
+    display: block;
+  }
+}
+
 /* Contact.html CSS */
 #contact-section {
   width: 450px;

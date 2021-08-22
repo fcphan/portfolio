@@ -55,7 +55,7 @@
       </nav>
     </header>
     <section class="container" id="projects">
-      <div>
+      <div id="imgCarousel">
         <div
           id="carouselCaptions"
           class="carousel slide"
@@ -136,6 +136,84 @@
             class="carousel-control-next"
             type="button"
             data-bs-target="#carouselCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div id="cardCarousel">
+        <div
+          id="carouselCaptions2"
+          class="carousel slide"
+          data-bs-ride="carousel2"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselCaptions2"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselCaptions2"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card p-2 bg-dark">
+                <h5 class="p-2 text-light">PSU Crypt</h5>
+                <p class="p-2 text-light">
+                  This is an implementation of PSU-Crypt, a Feistel Cipher
+                  encryption based on Skipjack and Twofish. It takes in a 16
+                  character key and a textfile of any length. The file can then
+                  be encrypted or decrypted with the provided key. If
+                  encrypting, the results (hex blocks) will be written to the
+                  destination file and the amount of padding added to the
+                  message will be displayed. If decrypting, the result (the
+                  decrypted plaintext) will be writeen to the destination file.
+                </p>
+                <a class="text-light" href="https://github.com/fcphan/PSU-Crypt"
+                  >See it on GitHub</a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card p-2 bg-dark">
+                <h5 class="p-2 text-light">WonderTix Capstone Project</h5>
+                <p class="p-2 text-light">
+                  PSU Summer 2021 Capstone Project. A ticketing system was
+                  created in collaboration with Portland Playhouse. While not
+                  all componets are fully implemented, it is possible to buy a
+                  ticket, create events, and view the doorlist.
+                </p>
+                <a
+                  class="text-light"
+                  href="https://github.com/wpapsco/capstone-mockup"
+                  >See it on GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselCaptions2"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselCaptions2"
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
