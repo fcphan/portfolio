@@ -10,7 +10,7 @@ The personal portfolio is being hosted on GitHub Pages at [fcphan.github.io/port
 
 ### How to run
 
-This portfolio is very simple to run, as it only
+This portfolio is very simple to run, as it only is primarily HTML code. It can be run using the LiveServer Extension on VS Code. It is also possible to open the files using any browser, as browsers can open and run HTML files.
 
 ### Componenets
 
