@@ -14,7 +14,7 @@ This portfolio is very simple to run, as it only is primarily HTML code. It can 
 
 ### Componenets
 
-The portfolio is primarily made of of HTML code, CSS, and JavaScript. For general styling purposes, BootStrap 5.5 was used, with CSS taking care of the more fine tuned styling and animations. The JavaScript file contains a getter function, which sends a request to a separate API endpoint that I made.
+The portfolio is primarily made of of HTML code, CSS, and JavaScript. For general styling purposes, BootStrap 5.1 was used, with CSS taking care of the more fine tuned styling and animations. The JavaScript file contains a getter function, which sends a request to a separate API endpoint that I made.
 
 ### API
 
